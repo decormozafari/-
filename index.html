@@ -3,124 +3,170 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>راه های ارتباطی</title>
+
+<title>دکور مظفری</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
 
 body{
-    font-family:Tahoma, sans-serif;
+    margin:0;
+    font-family:tahoma,sans-serif;
     background:#f5f5f5;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
 }
 
 .container{
-    width:90%;
     max-width:450px;
-    background:#fff;
-    padding:30px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
     border-radius:20px;
-    box-shadow:0 0 15px rgba(0,0,0,0.1);
+    box-shadow:0 0 20px rgba(0,0,0,.1);
     text-align:center;
 }
 
+.logo{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
 h1{
-    margin-bottom:25px;
     color:#333;
+    margin-bottom:5px;
+}
+
+.subtitle{
+    color:#777;
+    margin-bottom:25px;
 }
 
 .btn{
     display:block;
-    width:100%;
-    padding:15px;
-    margin:10px 0;
     text-decoration:none;
-    color:#fff;
+    color:white;
+    padding:15px;
     border-radius:12px;
-    font-size:17px;
-    transition:0.3s;
+    margin:12px 0;
+    font-size:18px;
+    transition:.3s;
 }
 
 .btn:hover{
-    transform:scale(1.03);
+    transform:translateY(-2px);
 }
 
-.instagram{background:#E1306C;}
-.telegram{background:#0088cc;}
-.whatsapp{background:#25D366;}
-.phone{background:#007bff;}
-.map{background:#ff6b00;}
-.neshan{background:#00a86b;}
+.instagram{
+    background:#E1306C;
+}
+
+.telegram{
+    background:#0088cc;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.phone{
+    background:#2563eb;
+}
+
+.map{
+    background:#ef4444;
+}
+
+.neshan{
+    background:#10b981;
+}
 
 .footer{
     margin-top:20px;
-    color:#777;
-    font-size:14px;
+    color:#888;
+    font-size:13px;
 }
+
+i{
+    margin-left:8px;
+}
+
 </style>
 
 </head>
+
 <body>
 
 <div class="container">
 
-<h1>راه های ارتباطی</h1>
+<!-- لوگو -->
+<img src="logo.jpg" class="logo">
+
+<h1>دکور مظفری</h1>
+
+<div class="subtitle">
+راه‌های ارتباطی
+</div>
 
 <a class="btn instagram"
 href="https://instagram.com/mozafari.decor"
 target="_blank">
-📷 اینستاگرام
+<i class="fa-brands fa-instagram"></i>
+اینستاگرام
 </a>
 
 <a class="btn telegram"
 href="https://t.me/mozafaridecor"
 target="_blank">
-📢 کانال تلگرام
+<i class="fa-brands fa-telegram"></i>
+کانال تلگرام
 </a>
 
 <a class="btn telegram"
 href="https://t.me/Mozafari_decor"
 target="_blank">
-💬 پیام در تلگرام
+<i class="fa-brands fa-telegram"></i>
+پیام در تلگرام
 </a>
 
 <a class="btn whatsapp"
 href="https://wa.me/989170496334"
 target="_blank">
-🟢 واتساپ
+<i class="fa-brands fa-whatsapp"></i>
+واتساپ
 </a>
 
 <a class="btn phone"
 href="tel:+989170496334">
-📞 تماس شماره اول
+<i class="fa-solid fa-phone"></i>
+تماس شماره اول
 </a>
 
 <a class="btn phone"
 href="tel:+989175630921">
-☎️ تماس شماره دوم
+<i class="fa-solid fa-phone"></i>
+تماس شماره دوم
 </a>
 
 <a class="btn map"
 href="https://maps.app.goo.gl/Sa4cubMNkkA4rDrd8"
 target="_blank">
-📍 موقعیت در گوگل مپ
+<i class="fa-solid fa-location-dot"></i>
+موقعیت در گوگل مپ
 </a>
 
 <a class="btn neshan"
 href="https://nshn.ir/5a2bgilVVF7Ibv"
 target="_blank">
-🧭 موقعیت در نشان
+<i class="fa-solid fa-map"></i>
+موقعیت در نشان
 </a>
 
 <div class="footer">
-تمام حقوق محفوظ است
+© Decor Mozafari
 </div>
 
 </div>
